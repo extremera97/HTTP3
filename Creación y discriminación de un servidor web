@@ -18,5 +18,14 @@ Primero, vamos a empezar con la discriminación por puerto:
 
 1. Ahora debemos elegir la carpeta que queremos que sea para Raíz para Documentos. Para ello crearemos una carpeta en el directorio raíz para nuestro servidor, que la llamaremos servidor*TUNOMBRE*
 
-Dentro de ella crearemos un documento html llamado *index* con la siquiente esctructura:
+Dentro de ella crearemos otra carpeta llamada **puerto**, y dentri de esta un documento html llamado *index* con la siquiente esctructura:
 
+[discripuerto3]
+
+1. Ahora en Raiz para Documentos debemos escribir la ruta de nuestra carpeta, que debería ser /servidor*TUNOMBRE*/puerto.
+
+[discripuerto4]
+
+Lo que estamos haciendo en este paso es indicarle a nuestro sitio virtual que queremos que muestre el contenido de la carpeta en el sitio. 
+
+[falta la captura del sitio]
