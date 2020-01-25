@@ -12,20 +12,30 @@ Primero, vamos a empezar con la discriminación por puerto:
 
 [discripuerto]
 
-1. Una de las opciones que debemos cambiar es la de Puerto, yo he elegido el 8000.
+2. Una de las opciones que debemos cambiar es la de Puerto, yo he elegido el 8000.
 
 [discripuerto2]
 
-1. Ahora debemos elegir la carpeta que queremos que sea para Raíz para Documentos. Para ello crearemos una carpeta en el directorio raíz para nuestro servidor, que la llamaremos servidor*TUNOMBRE*
+3. Ahora debemos elegir la carpeta que queremos que sea para Raíz para Documentos. Para ello crearemos una carpeta en el directorio raíz para nuestro servidor, que la llamaremos servidor*TUNOMBRE*
 
-Dentro de ella crearemos otra carpeta llamada **puerto**, y dentri de esta un documento html llamado *index* con la siquiente esctructura:
+Dentro de ella crearemos otra carpeta llamada **puerto**, y dentro de esta un documento html llamado *index.html* con la siquiente esctructura:
 
 [discripuerto3]
 
-1. Ahora en Raiz para Documentos debemos escribir la ruta de nuestra carpeta, que debería ser /servidor*TUNOMBRE*/puerto.
+4. Ahora en Raiz para Documentos debemos escribir la ruta de nuestra carpeta, que debería ser /servidor*TUNOMBRE*/puerto.
 
 [discripuerto4]
 
 Lo que estamos haciendo en este paso es indicarle a nuestro sitio virtual que queremos que muestre el contenido de la carpeta en el sitio. 
 
 [falta la captura del sitio]
+
+Ahora que ya hemos creado un sitio virtual y hemos comprobado que funciona, vamos a crear otro sitio virtual que vamos a discriminar por IP.
+
+1. Desde la ventana de "Create Virtual Host" dejaremos todas las opciones por defecto excepto la casilla de **Manejar conexiones para direccionar** y escribiremos una IP dentro de nuestro rango.
+
+[discriip]
+
+1. Para discriminar por puerto también debemos crear una carpeta dentro de nuestra carpeta de servidor llamada ip.
+
+Dentro de esta crearemos otro documento html llamado *index.html*
