@@ -1,10 +1,10 @@
-Antes de empezar a crear sitios virtuales y a discriminarlos sin saber exactamente lo que estamos haciendo debemos saber un par de cosas antes de empezar. Como por ejemplo: **¿Cuátos sitios virtuales puedo tener en mi servidor web?**
+Antes de empezar a crear sitios virtuales y a discriminarlos sin saber exactamente lo que estamos haciendo debemos saber un par de cosas antes de empezar. Como por ejemplo: **¿Cuántos sitios virtuales puedo tener en mi servidor web?**
 
-En mi servidor web puedo tener cuantos sitios virtuales siempre que su nombre DNS, puerto o IP sean distintas. Por eso discriminarlas es importante.
+En mi servidor web puedo tener cuantos sitios virtuales quiera, siempre que su nombre DNS, puerto o IP sean distintas. Por eso discriminarlas es importante.
 
-Al discriminarlas lo que hacemos es diferenciarla, es decir, para que no haya confusiones a la hora de acceder a ellos lo que hacemos es nombrarlas por puerto, ip o nombre dns.
+Al discriminarlas lo que hacemos es diferenciarla, es decir, para que no haya confusiones a la hora de acceder a ellos lo que hacemos es nombrarlas por puerto, IP o nombre DNS.
 
-En esta práctica aprenderás como crear sitios virtuales y discriminarlas.
+En esta práctica aprenderás como crear sitios virtuales y discriminarlos.
 
 Primero, vamos a empezar con la discriminación por puerto:
 
@@ -16,13 +16,13 @@ Primero, vamos a empezar con la discriminación por puerto:
 
 ![discripuerto2](./images/discripuerto2.PNG)
 
-3. Ahora debemos elegir la carpeta que queremos que sea para Raíz para Documentos. Para ello crearemos una carpeta en el directorio raíz para nuestro servidor, que la llamaremos servidor*TUNOMBRE*
+3. Ahora debemos elegir la carpeta que queremos que sea para Raíz para Documentos. Para ello crearemos una carpeta en el directorio raíz para nuestro servidor, que la llamaremos *servidorTUNOMBRE*
 
 Dentro de ella crearemos otra carpeta llamada **puerto**, y dentro de esta un documento html llamado *index.html* con la siquiente esctructura:
 
 ![discripuerto3](./images/discripuerto3.PNG)
 
-4. Ahora en Raiz para Documentos debemos escribir la ruta de nuestra carpeta, que debería ser /servidor*TUNOMBRE*/puerto.
+4. Ahora en Raiz para Documentos debemos escribir la ruta de nuestra carpeta, que debería ser */servidorTUNOMBRE/puerto*.
 
 ![discripuerto4](./images/discripuerto4.PNG)
 
@@ -32,7 +32,7 @@ Ahora lo que tenemos que hacer es decirle al servidor que tiene que escuchar el 
   
   1. Accedemos a nuestro servidor Apache y entramos en la pestaña de *Global configuration*
 
-  ![discri4peroqueenrealidadesla5](./images/discri4peroqueenrealidadesla5.PNG)
+  ![discri4peroqueenrealidadesla5](./images/discripuerto4peroqueenrealidadesla5.PNG)
   
   2. Nos aparecen una serie de opciones, nosotros clicamos en *Editar Archivos de Configuración* 
   
