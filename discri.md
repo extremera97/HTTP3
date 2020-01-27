@@ -116,7 +116,7 @@ El resto de campos los dejaremos por defecto, por lo que clicamos en *Crear*
  
  ![dns10](./images/dns10.PNG)
  
- Como puedes observar se debe crear otra carpeta dentro de la carpeta del servidor llamada *dns* y a su vez, dentro de ella un archivo html con la siguiente estructura:
+ Como puedes observar se debe crear otra carpeta dentro de la carpeta del servidor llamada *dns* y a su vez, dentro de ella un archivo html que se llame *index* con la siguiente estructura:
  
  ![dns9](./images/dns9.PNG)
  
@@ -125,3 +125,20 @@ El resto de campos los dejaremos por defecto, por lo que clicamos en *Crear*
  6. Ahora al ingresar en la barra de direcciones de nuestro navegador *www.servidorTUNOMBRE.local* deberá aparecernos lo siguiente:
  
  ![dns11](./images/dns11.PNG)
+
+Bien, ya hemos discriminado por puerto y por nombre DNS, así que por último crearemos un sitio virtual nuevo y lo discriminaremos por IP. Para ello:
+ 
+1. Como ya sabes, debemos crear una carpeta dentro de la carpeta de nuestro servidor que se llamará *ip* y que a su vez, dentro de esta crearemos un archivo html llamado *index* con la siguiente estructura:
+
+![iphtml](./images/iphtml.PNG)
+
+2. Creamos el nuevo sitio virtual y solo modificaremos dos campos, en **Manejar conexiones para direccionar** elegimos la opción *Dirección específica*, que será la IP de nuestro servidor.
+
+El otro campo es Raíz para documentos, en el que pondremos la ruta de nuestra carpeta IP.
+
+![ip1](./images/ip1.PNG)
+
+Le damos a crear ahora y aplicamos cambios. Ahora al poner nuestra IP en la barra de direcciones deberá aparecernos esto:
+
+![ip2](./images/ip1.PNG)
+
