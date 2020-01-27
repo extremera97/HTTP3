@@ -4,4 +4,10 @@ Es un protocolo de tranferencia basado en un esquema entre la petición de un cl
 
 Después de haber realizado la práctica de la instalación del servidor web Apache, vamos a crear sitios virtuales y a discriminarlos. A continuación tienes una guía de como hacerlo:
 
-[enlace](./discri.md)
+[Discriminación de sitios virtuales.](./discri.md)
+
+¿Sabías que Apache permite que cada usuario tenga páginas web independientes del resto?
+
+En la actividad de acontinuación de explico como poder hacerlo.
+
+[Asignar directorios web a un usuario](./usuarios.md)
