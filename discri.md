@@ -22,7 +22,7 @@ Dentro de ella crearemos otra carpeta llamada **puerto**, y dentro de esta un do
 
 ![discripuerto3](./images/discripuerto3.PNG)
 
-4. Ahora en Raiz para Documentos debemos escribir la ruta de nuestra carpeta, que debería ser */servidorTUNOMBRE/puerto*.
+4. Ahora en Raíz para Documentos debemos escribir la ruta de nuestra carpeta, que debería ser */servidorTUNOMBRE/puerto*.
 
 ![discripuerto4](./images/discripuerto4.PNG)
 
@@ -140,5 +140,5 @@ El otro campo es Raíz para documentos, en el que pondremos la ruta de nuestra c
 
 Le damos a crear ahora y aplicamos cambios. Ahora al poner nuestra IP en la barra de direcciones deberá aparecernos esto:
 
-![ip2](./images/ip2.PNG)
+![ip2](./images/ip1.PNG)
 
