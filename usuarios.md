@@ -28,7 +28,7 @@ En esta actividad vamos a hacer que un usuario tenga su propio sitio web, para e
 
 ![usu5](./images/usu5.PNG)
 
-8. Podemos crear un usuario nuevo, o de un usuario existe, en su directorio /*nome* una carpeta llamada *public_html* y dentro de ella un fichero html llamado *index.html* con la siguiente estructura:
+8. Podemos crear un usuario nuevo, o de un usuario existe, en su directorio /*home* una carpeta llamada *public_html* y dentro de ella un fichero html llamado *index.html* con la siguiente estructura:
 
 ![usudire](./images/usudire.PNG)
 
