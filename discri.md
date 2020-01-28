@@ -140,5 +140,5 @@ El otro campo es Raíz para documentos, en el que pondremos la ruta de nuestra c
 
 Le damos a crear ahora y aplicamos cambios. Ahora al poner nuestra IP en la barra de direcciones deberá aparecernos esto:
 
-![ip2](./images/ip1.PNG)
+![ip2](./images/ip2.PNG)
 
